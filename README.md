@@ -18,3 +18,8 @@ But neither does block touches. If we set `swiftUI.view.isUserInteractionEnabled
 **This means that SwiftUI views that are partially transparent can't easily be mixed with UIKit, as they still block touch handling for whatever they overlay.**
 
 Or maybe there's a way?
+
+
+Update:
+I updated the code with workaround solution using 
+* `override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {`

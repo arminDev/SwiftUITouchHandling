@@ -23,13 +23,9 @@ class ViewController: UIViewController {
         button.layer.borderColor = UIColor.blue.cgColor
         view.addSubview(button)
 
-        let swiftUI = UIHostingController(rootView: SwiftUIView())
-        swiftUI.view.frame = CGRect(x: 150, y: 150, width: 150, height: 150)
-        self.addChild(swiftUI)
-        view.addSubview(swiftUI.view)
-        swiftUI.view.isUserInteractionEnabled = false
+        let uiKitView = UIKitView()
+        uiKitView.frame = CGRect(x: 0, y: 0, width: 150, height: 150)
+        view.addSubview(uiKitView)
     }
-
-
 }
 

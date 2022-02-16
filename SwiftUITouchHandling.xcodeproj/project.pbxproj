@@ -14,6 +14,7 @@
 		78A02CC12546F0B500D42A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A02CC02546F0B500D42A45 /* Assets.xcassets */; };
 		78A02CC42546F0B500D42A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A02CC22546F0B500D42A45 /* LaunchScreen.storyboard */; };
 		78A02CCD2546F1E000D42A45 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A02CCC2546F1E000D42A45 /* SwiftUIView.swift */; };
+		E4C6E9E127BCE8330008F509 /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C6E9E027BCE8330008F509 /* UIKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		78A02CC32546F0B500D42A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A02CC52546F0B500D42A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A02CCC2546F1E000D42A45 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E4C6E9E027BCE8330008F509 /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				78A02CB72546F0B300D42A45 /* AppDelegate.swift */,
 				78A02CB92546F0B300D42A45 /* SceneDelegate.swift */,
 				78A02CBB2546F0B300D42A45 /* ViewController.swift */,
+				E4C6E9E027BCE8330008F509 /* UIKitView.swift */,
 				78A02CCC2546F1E000D42A45 /* SwiftUIView.swift */,
 				78A02CBD2546F0B300D42A45 /* Main.storyboard */,
 				78A02CC02546F0B500D42A45 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				78A02CB82546F0B300D42A45 /* AppDelegate.swift in Sources */,
 				78A02CCD2546F1E000D42A45 /* SwiftUIView.swift in Sources */,
 				78A02CBA2546F0B300D42A45 /* SceneDelegate.swift in Sources */,
+				E4C6E9E127BCE8330008F509 /* UIKitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +295,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y5PE65HELJ;
+				DEVELOPMENT_TEAM = 446FZ5QLE4;
 				INFOPLIST_FILE = SwiftUITouchHandling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.steipete.SwiftUITouchHandling;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armin.SwiftUITouchHandling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,13 +314,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y5PE65HELJ;
+				DEVELOPMENT_TEAM = 446FZ5QLE4;
 				INFOPLIST_FILE = SwiftUITouchHandling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.steipete.SwiftUITouchHandling;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armin.SwiftUITouchHandling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
